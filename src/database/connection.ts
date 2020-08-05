@@ -1,4 +1,3 @@
-import knex from 'knex'
 import Knex from 'knex'
 import path from 'path'
 
@@ -10,4 +9,4 @@ const db = Knex({
   useNullAsDefault: true,
 })
 
-export default db
+export default db;
