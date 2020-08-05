@@ -2,7 +2,9 @@ import express from 'express'
 
 const app = express()
 
-app.get('/users', (req, res) => {
+app.use(express.json())
+
+app.get('/', (req, res) => {
   res.send('OI')
 })
 
